@@ -1,0 +1,112 @@
+* {
+box-sizing: border-box;
+outline: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: rgb(13, 106, 134);
+}
+
+.container{
+	max-width: 640px;
+	margin: 50px auto;
+	background-color: #fff;
+	padding: 20px;
+	font-size: 1.3em; /* tamanho da fonte*/
+	line-height: 1.5em; /* altura da linha*/
+	border-radius: 10px; /*Da uma arren*/
+	
+}
+ol{
+	padding: 0px ;
+}
+
+form input, form label, form button{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+
+
+}
+input{
+	height: 30px;
+	font-size: 20px;
+}
+
+form input{
+	font-size: 24px; /*Tamanho da font*/
+	height: 50px; /* Altura dos input*/
+	padding: 0 20px;
+
+}
+
+form input:focus{
+	outline: 1px solid rgb(13, 106, 134);;
+	
+}
+
+form button {
+
+	border: none;
+	background: rgb(13, 106, 134);
+	color: #fff;
+	font-size:18px;
+	font-weight: 700px;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+form button:hover {
+	background-color:rgb(9, 48, 56) ;
+}
+
+.paragrafo-resultado{
+	background-color: red;
+	padding: 10px 20px;
+}
+
+
+.pausado{
+	color: red;
+}
+.apagar{
+	cursor: pointer;
+	border: none;
+	padding:  5px 10px 5px 10px;
+	margin-left: 20px;
+	background-color: rgb(150, 147, 147);
+	color: rgb(255, 255, 255);
+}
+
+.apagar:hover{
+	color: rgb(255, 255, 255);
+	
+}
+
+.retirarOutline{
+	list-style: none;
+}
+
+.adcionarTarefa{
+	padding: 6px;
+}
+
+.corDeAviso{
+	color: red;
+	font-size: 18px ;
+	
+}
+
+hr{
+	position: relative;
+	left: 0px;
+}
+
+
+.avisoTarefa{
+	font-size: 18px;
+	
+}
